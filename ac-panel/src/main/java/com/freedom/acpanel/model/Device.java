@@ -32,11 +32,11 @@ public class Device {
                 ", hostId='" + this.hostId + '\'' +
                 ", usCode='" + this.usCode + '\'' +
                 ", nodeId=" + this.nodeId + '\'' +
-                ", nodeName='" + this.nodeName +
-                ", type='" + this.type +
-                ", model='" + this.model +
-                ", ipAddress='" + this.ipAddress +
-                ", totalNumberOfLogins='" + this.totalNumberOfLogins +
+                ", nodeName='" + this.nodeName + '\'' +
+                ", type='" + this.type + '\'' +
+                ", model='" + this.model + '\'' +
+                ", ipAddress='" + this.ipAddress + '\'' +
+                ", totalNumberOfLogins='" + this.totalNumberOfLogins + '\'' +
                 ", numberOfLogins='" + this.numberOfLogins +
                 '}';
     }
