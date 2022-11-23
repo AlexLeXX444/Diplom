@@ -4,10 +4,11 @@ package com.freedom.acpanel.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Value;
 
 @Data
+@AllArgsConstructor
 @Entity(name = "devicesDataTable")
 public class Device {
     @Id
@@ -24,6 +25,7 @@ public class Device {
     private int totalNumberOfLogins;
     private int numberOfLogins;
 
+    public Device() {}
     @Override
     public String toString() {
         return "Device{" + 

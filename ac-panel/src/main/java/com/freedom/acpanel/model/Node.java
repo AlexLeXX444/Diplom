@@ -3,9 +3,11 @@ package com.freedom.acpanel.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 @Entity(name = "nodesDataTable")
 public class Node {
     @Id
@@ -15,6 +17,7 @@ public class Node {
     private int totalNumberOfLogins;
     private int numberOfLogins;
 
+    public Node() {}
     @Override
     public String toString() {
         return "Device{" + 
