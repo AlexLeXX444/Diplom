@@ -14,8 +14,9 @@ public class Node {
     private long id;
 
     private String name;
-    private int totalNumberOfLogins;
-    private int numberOfLogins;
+    private int batteryCapacity = 0;
+    private int totalNumberOfLogins = 0;
+    private int numberOfLogins = 0;
 
     public Node() {}
     @Override
@@ -23,6 +24,7 @@ public class Node {
         return "Device{" + 
                 "id=" + this.id + 
                 ", name='" + this.name + '\'' +
+                ", batteryCapacity='" + this.batteryCapacity + '\'' +
                 ", totalNumberOfLogins='" + this.totalNumberOfLogins + '\'' +
                 ", numberOfLogins='" + this.numberOfLogins +
                 '}';
