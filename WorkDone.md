@@ -96,5 +96,3 @@ https://releases.ubuntu.com/20.04/
     2 rows in set (0.000 sec)
 
     MariaDB [mysql]> exit
-
-    На этом пока всё!
