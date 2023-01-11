@@ -8,6 +8,8 @@ public class AcPanelApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(AcPanelApplication.class, args);
+
+
     }
 
 }
